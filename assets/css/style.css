@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-image: linear-gradient(to right,#6ed6ff,#18a58d,#00c6f8);
+    color: #fff;
+}
+.title {
+    text-align: center;
+    padding: 20px;
+}
+.cards{
+    /* margin: 20px; */
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1{
+    position: relative;
+    width: 33%;
+    left:-200px;
+    border-radius: 10px;
+    /* box-shadow: -2px -2px 10px 0px #000; */
+}
+.card-top1{
+    padding: 10px;
+    background-color: #fff;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 200px;
+    color: black;
+    box-shadow: -1px 0px 3px #000;
+}
+.card-bot1{
+    padding: 20px;
+    background-color: red;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 400px;
+    box-shadow: 2px 5px 5px #000;
+}
+.card2{
+    position: absolute;
+    width: 33%;
+    left: 410px;
+    z-index: 1;
+    /* box-shadow: -2px -2px 10px 0px #000; */
+}
+.card-top2{
+    padding: 10px;
+    background-color: #fff;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 225px;
+    color: black;
+    box-shadow: 2px 0px 5px 0px #000;
+}
+.card-bot2{
+    padding: 20px;
+    background-color: orange;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 425px;
+    box-shadow: 0px 2px 3px 0px #000;
+}
+.card3{
+    position: relative;
+    width: 33.3%;
+    right:-180px;
+    /* box-shadow: -2px -2px 10px 0px #000; */
+}
+.card-top3{
+    padding: 10px;
+    background-color: #fff;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 200px;
+    color: black;
+    box-shadow: 2px 0px 5px 0px #000;
+}
+.card-bot3{
+    padding: 20px;
+    background-color: blue;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 400px;
+    box-shadow: 0px 2px 3px 0px #000;
+}
+.card1 h1{
+    text-align: center;
+    padding: 75px 10px;
+}
+.card2 h1{
+    text-align: center;
+    padding: 75px 10px;
+}
+.card3 h1{
+    text-align: center;
+    padding: 75px 10px;
+}
+.pricing-body{
+    box-shadow:#000 1px 1px 17px -5px ;
+    border-radius: 10px;
+}
